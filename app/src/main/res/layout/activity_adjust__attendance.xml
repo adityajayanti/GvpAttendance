@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aditya.gvpattendance.Adjust_Attendance">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="0dp">
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent">
+       <TableLayout
+           android:id="@+id/table1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+           <TableRow>
+               <Spinner
+                   android:id="@+id/spinner1"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="3"
+                   android:background="@android:drawable/btn_dropdown"
+                   android:spinnerMode="dropdown" />
+               <Spinner
+                   android:id="@+id/spinner2"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="3"
+                   android:background="@android:drawable/btn_dropdown"
+                   android:spinnerMode="dropdown" />
+               <Spinner
+                   android:id="@+id/spinner3"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="3"
+                   android:background="@android:drawable/btn_dropdown"
+                   android:spinnerMode="dropdown" />
+           </TableRow>
+
+       </TableLayout>
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/table1"
+            android:layout_weight="3"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:id="@+id/TextTopic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner4"
+            android:layout_marginTop="5dp"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:text="Topic"
+            android:textStyle="bold"
+            />
+
+           <EditText
+               android:id="@+id/TopicName"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:hint="Enter topic here!"
+               android:layout_alignBaseline="@+id/TextTopic"
+               android:layout_alignBottom="@+id/TextTopic"
+               android:layout_toEndOf="@+id/TextTopic"
+               android:layout_toRightOf="@+id/TextTopic" />
+
+
+       </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/button"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="#039be5"/>
+
+</RelativeLayout>

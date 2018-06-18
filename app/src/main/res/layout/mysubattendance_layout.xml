@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/TextDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Date :"
+                        android:textColor="#10bcc9"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ValueDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_toRightOf="@id/TextDate"
+                        android:text="20-04-2018"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"/>
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/TextHour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/TextDate"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Hour :"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textColor="#10bcc9"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ValueHour"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ValueDate"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_toRightOf="@id/TextHour"
+                        android:text="1"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"/>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/TextTopic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/TextHour"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Topic :"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textColor="#10bcc9"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/ValueTopic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ValueHour"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_toRightOf="@id/TextHour"
+                        android:text="Java Script Java ScriptJava Script Java Script Java Script Java Script"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"/>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:id="@+id/TextAbsent"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/TextTopic"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="2dp"
+                        android:text="Absent"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textColor="#10bcc9"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ValueAbsent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="2dip"
+                        android:layout_weight="50"
+                        android:layout_below="@id/ValueTopic"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_toRightOf="@id/TextAbsent"
+                        android:text="Java Script Java ScriptJava Script Java Script Java Script Java Script"
+                        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                        android:textColor="#ff0000"
+                        android:textStyle="bold"/>
+
+                </TableRow>
+            </TableLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

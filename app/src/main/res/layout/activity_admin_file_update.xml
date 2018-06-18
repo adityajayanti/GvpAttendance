@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aditya.gvpattendance.AdminFileUpdate">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/SelectionId"
+           android:textStyle="bold"
+           android:layout_marginTop="5dp"
+           android:layout_span="2"
+           android:textSize="20sp"
+           android:text="Student Info"
+           android:textColor="#10bcc9"/>
+        </TableRow>
+        <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/FileID"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:text="File name : "
+            android:textColor="#000000"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/FileValue"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:text="Student_info.csv"
+                android:textColor="#000000"/>
+        </TableRow>
+    </TableLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <Button
+        android:id="@+id/selectfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="47dp"
+        android:background="#039be5"
+        android:text="Select File"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/selectfile"
+        android:layout_marginTop="15dp"
+        android:background="#000000"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Upload"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

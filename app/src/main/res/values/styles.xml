@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <string-array name="dept">
+        <item>Dept</item>
+        <item>MCA</item>
+        <item>MSC</item>
+    </string-array>
+
+    <string-array name="sem">
+        <item>Sem</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="hour">
+        <item>Hour</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+
+    <string-array name="subject">
+        <item>Subject</item>
+        <item>Fundamental Programming Methodologies</item>
+        <item>Computer Organization</item>
+        <item>Discrete Mathematical Structures</item>
+        <item>Probability Statistics and Queuing Theory</item>
+        <item>Accounting and Finance Management</item>
+        <item>Programming Methodologies Lab</item>
+        <item>Computer Organization Lab</item>
+        <item>Object Oriented Programming Using Java</item>
+        <item>Data Structures Using Java</item>
+        <item>Operating Systems</item>
+        <item>Ecology and Environment</item>
+        <item>Data Structures Using Java Lab</item>
+        <item>Operating Systems Lab</item>
+        <item>Computer Graphics</item>
+        <item>Database Management Systems</item>
+        <item>Artificial Intelligence</item>
+        <item>Operation Research</item>
+        <item>Graphics and Multimedia Lab</item>
+        <item>Database Management Systems Lab</item>
+        <item>Web Technologies</item>
+        <item>Object Oriented Analysis and Design With UML</item>
+        <item>Data Communications and Computer Networks</item>
+        <item>MOOCS-I</item>
+        <item>Web Technologies Lab</item>
+        <item>Data Communications and Computer Networks Lab</item>
+        <item>Network Security</item>
+        <item>Data Warehousing and Mining</item>
+        <item>Dot Net Technologies</item>
+        <item>MOOSC-II</item>
+        <item>Data Mining and Warehousing using WEKA Tool Lab</item>
+        <item>Dot Net Software Lab</item>
+        <item>Formal Languages and Automata Theory</item>
+        <item>Systems Programming</item>
+        <item>File Structures</item>
+        <item>Design and Analysis of Algorithms</item>
+        <item>Software Engineering</item>
+        <item>Embedded Systems</item>
+        <item>Compiler Design</item>
+        <item>Bio-Informatics</item>
+        <item>Image Processing</item>
+        <item>E-Commerce Technologies</item>
+        <item>Distributed Systems</item>
+        <item>Big Data Analytics</item>
+        <item>Cloud Computing</item>
+        <item>Mobile Computing</item>
+        <item>Wireless Ad-hoc Networks</item>
+        <item>English</item>
+        <item>CTV</item>
+        <item>Placement</item>
+        <item>Information System and Organizational Behavior</item>
+
+    </string-array>
+
+
+
+</resources>

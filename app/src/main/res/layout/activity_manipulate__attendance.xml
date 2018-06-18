@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.aditya.gvpattendance.Manipulate_Attendance">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow>
+
+                <Spinner
+                    android:id="@+id/spinner1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:addStatesFromChildren="false"
+                    android:background="@android:drawable/btn_dropdown"
+                    android:spinnerMode="dropdown" />
+                />
+
+                <Spinner
+                    android:id="@+id/spinner2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/btn_dropdown"
+                    android:spinnerMode="dropdown" />
+                />
+
+                <Spinner
+                    android:id="@+id/spinner3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/btn_dropdown"
+                    android:spinnerMode="dropdown" />
+                />
+
+            </TableRow>
+
+            <TableRow>
+
+                <EditText
+                    android:id="@+id/DateSearch"
+                    android:clickable="true"
+                    android:editable="false"
+                    android:hint="Date" />
+
+                <Button
+                    android:id="@+id/Sbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:padding="10dip"
+                    android:text="Search"
+                    android:textSize="15dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/button"
+        android:text="Update"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="#039be5"/>
+
+
+</RelativeLayout>

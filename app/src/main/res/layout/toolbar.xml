@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/TextTitleDept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip"
+                android:text="Dept :"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextDept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MCA"
+                android:textColor="#10bcc9"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/TextTitleSem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip"
+                android:text="Sem :"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextSem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:textColor="#10bcc9"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/TextTitleSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip"
+                android:text="Subject :"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextSub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Project"
+                android:textColor="#10bcc9"
+                android:textSize="15dip"
+                android:textStyle="bold" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</android.support.v7.widget.Toolbar>

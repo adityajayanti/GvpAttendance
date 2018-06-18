@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+
+            <TextView
+                android:id="@+id/TextSubName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="TIMETABLE"
+                android:textColor="#10bcc9"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextDept"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextSubName"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="2dp"
+                android:layout_toRightOf="@id/imageView"
+                android:text=" Get"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textStyle="bold"
+                android:textColor="#ff0000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/TextSem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextSubName"
+                android:layout_toRightOf="@id/TextDept"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="2dp"
+                android:text=" Att"
+                android:textStyle="bold"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#ff0000"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>

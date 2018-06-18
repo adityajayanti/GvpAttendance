@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/imageView">
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/TextTitleID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:text="ID :"
+                        android:textSize="15dip"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="PG151602014"
+                        android:textColor="#10bcc9"
+                        android:textSize="15dip"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/TextTitleName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:text="Name :"
+                        android:textSize="15dip"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:text="Jayanti Kamesh Pawan Sri Aditya"
+                        android:layout_weight="50"
+                        android:textColor="#10bcc9"
+                        android:textSize="15dip"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/TextTitleDept"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:text="Dept :"
+                        android:textSize="15dip"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextDept"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="MCA"
+                        android:textColor="#10bcc9"
+                        android:textSize="15dip"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        android:id="@+id/TextTitleSem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dip"
+                        android:text="Sem :"
+                        android:textSize="15dip"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextSem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scrollHorizontally="true"
+                        android:text="5"
+                        android:textColor="#10bcc9"
+                        android:textSize="15dip"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow>
+
+                <TextView
+                    android:id="@+id/TextTitleMobile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip"
+                    android:text="Mobile :"
+                    android:textSize="15dip"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TextMobile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7893206515"
+                    android:textColor="#10bcc9"
+                    android:textSize="15dip"
+                    android:textStyle="bold" />
+            </TableRow>
+
+                <TableRow>
+
+                <TextView
+                    android:id="@+id/TextTitleEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip"
+                    android:text="Email :"
+                    android:textSize="15dip"
+                    android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TextEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="adityajayanti245@gmail.com"
+                        android:textColor="#10bcc9"
+                        android:textSize="15dip"
+                        android:textStyle="bold" />
+            </TableRow>
+
+            </TableLayout>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#ffffff"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+
+            <TextView
+                android:id="@+id/TextID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="1dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="0dp"
+                android:text="PG151602014"
+                android:textColor="#10bcc9"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TextName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextID"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/imageView"
+                android:text="JAYANTI KAMESH PAWAN SRI ADITYA JAYANTI KAMESH PAWAN SRI ADITYA  "
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#ff0000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/TextAtt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextName"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="Att :"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#c65b39"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/ValueAtt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextName"
+                android:layout_toEndOf="@id/TextAtt"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/imageView"
+                android:text="1260"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/TextTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/TextName"
+                android:layout_toRightOf="@id/ValueAtt"
+                android:text="Held :"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#c65b39"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/ValueTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/TextName"
+                android:layout_toRightOf="@id/TextTotal"
+                android:text="1260"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/TextPer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextName"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/ValueTotal"
+                android:text="Per :"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#c65b39"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/ValuePer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TextName"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/TextPer"
+                android:text="100.0%"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
